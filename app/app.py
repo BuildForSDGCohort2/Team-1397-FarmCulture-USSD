@@ -48,7 +48,7 @@ def ussd_callback():
 	elif text == "1*1": 
 		#print menu for horticulture option
 		response = "CON LEARN HORTICULTURE:\n"
-		response += "1. How to cultivate Beans\n"
+		response += "1. How to cultivate Purple Tea\n"
 		response += "2. How to cultivate Maize\n"
 		response += "3. How to cultivate Wheat\n"
 		response += "4. How to cultivate Tomatoes\n"
@@ -90,16 +90,16 @@ def ussd_callback():
 		response += "000. EXIT\n"
 
 	elif text == "1*1*1":
-		#
+		#send an SMS to user and print success message
 		
 
 	elif text == "1*1*2":
-		#
-
-
+		#send an SMS to user and print success message
+		
 
 	else:
 		response = "END Invalid input. Try again."
+
 
 	return response
 
