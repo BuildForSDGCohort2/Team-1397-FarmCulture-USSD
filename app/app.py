@@ -22,7 +22,7 @@ def ussd_callback():
 
 
 	#USSD logic
-	if text == "":
+	if text == "" || text == "111":
 		#print main menu
 		response = "CON Welcome to FarmCulture!\n"
 		response += "LEARN & PRACTICE PROFESSIONAL FARMING\n"
@@ -37,8 +37,8 @@ def ussd_callback():
 		response += "3. Beef Farming\n"
 		response += "4. Poultry Farming\n"
 		response += "5. Bee keeping\n"
-		response += "6. Go Back\n"
-		response += "7. EXIT\n"
+		response += "111. Go Back\n"
+		response += "000. EXIT\n"
 
 	elif text == "000": 
 		#print menu for option 2
@@ -58,7 +58,7 @@ def ussd_callback():
 		response += "8. How to cultivate Spinach\n"
 		response += "9. How to cultivate Macademia nuts\n"
 		response += "10. How to cultivate Groundnuts\n"
-		response += "11. Go Back\n"
+		response += "111. Go Back\n"
 		response += "000. EXIT\n"
 
 	elif text == "1*2":
@@ -66,7 +66,7 @@ def ussd_callback():
 		response = "CON LEARN DAIRY FARMING:\n"
 		response += "1. How to Dairy Cow Farming\n"
 		response += "2. How to Dairy Goat Farming\n"
-		response += "3. Go Back\n"
+		response += "111. Go Back\n"
 		response += "000. EXIT\n"
 			
 	elif text == "1*3":
@@ -80,7 +80,7 @@ def ussd_callback():
 		response = "CON LEARN POULTRY FARMING:\n"
 		response += "1. How to Layers Farming \n"
 		response += "2. How to Broiler Farming \n"
-		response += "3. Go Back\n"
+		response += "111. Go Back\n"
 		response += "000. EXIT\n"
 
 	elif text == "1*5":
@@ -91,11 +91,11 @@ def ussd_callback():
 
 	elif text == "1*1*1":
 		#send an SMS to user and print success message
-		
+		pass 
 
 	elif text == "1*1*2":
 		#send an SMS to user and print success message
-		
+		pass
 
 	else:
 		response = "END Invalid input. Try again."

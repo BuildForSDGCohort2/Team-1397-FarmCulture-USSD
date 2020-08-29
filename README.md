@@ -39,17 +39,17 @@
 	1. GET STARTED
 	000. EXIT `
 
-### Sub-menu: Option 1
+### Menu Option 1
 ` What would you like to LEARN?
 	1. Horticultural farming
 	2. Dairy Farming
 	3. Beef Farming
 	4. Poultry Farming
 	5. Bee keeping
-	6. Go Back 
+	111. Go Back 
 	000. EXIT `
 
-#### sub-sub-menu: Option 1 * 1
+#### Menu Option 1 * 1
 `
 LEARN HORTICULTURE:
 	1. How to cultivate Beans
@@ -62,20 +62,41 @@ LEARN HORTICULTURE:
 	8. How to cultivate Spinach
 	9. How to cultivate Macademia nuts
 	10. How to cultivate Groundnuts
-	11. Go Back
+	111. Go Back
 	000. EXIT
 `
 
-#### sub-sub-menu: Option 1 * 2
+#### Menu Option 1 * 2
+`
+ LEARN DAIRY FARMING:
+	1. How to Dairy Cow Farming
+	2. How to Dairy Goat Farming
+	111. Go Back
+	000. EXIT
+`
 
-#### sub-sub-menu: Option 1 * 3
+#### Menu Option 1 * 3
+`
+ LEARN BEEF FARMING:
+`
 
-#### sub-sub-menu: Option 1 * 4
+#### Menu Option 1 * 4
+`
+ LEARN POULTRY FARMING:
+		1. How to Layers Farming 
+		2. How to Broiler Farming 
+		111. Go Back
+		000. EXIT
+`
 
-#### sub-sub-menu: Option 1 * 5
+#### Menu Option 1 * 5
+`
+ LEARN BEE KEEPING
+`
 
-#### sub-sub-menu: Option 1 * 6
+#### Menu Option 111
+- Takes user to start menu
 
 
-### sub-menu: Option 000
+### Menu Option 000
 ` Thank you and Goodbye. See you soon.`	
