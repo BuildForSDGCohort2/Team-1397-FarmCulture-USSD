@@ -22,7 +22,7 @@ def ussd_callback():
 
 
 	#USSD logic
-	if text == "" || text == "111":
+	if text == "" or text == "111":
 		#print main menu
 		response = "CON Welcome to FarmCulture!\n"
 		response += "LEARN & PRACTICE PROFESSIONAL FARMING\n"
@@ -104,5 +104,5 @@ def ussd_callback():
 	return response
 
 if __name__ == "__main__":
-	app.run(host="0.0.0.0", port=os.environ.get("PORT"))
+	app.run(host="0.0.0.0", port=os.environ.get("PORT"), debug="true")
 
