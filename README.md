@@ -82,16 +82,16 @@ LEARN DAIRY FARMING:
 
 #### Menu Option 1 * 4
 
- LEARN POULTRY FARMING:
-	1. How to Layers Farming 
-	2. How to Broiler Farming 
-	111. Go Back
-	000. EXIT
+LEARN POULTRY FARMING:
+1. How to Layers Farming 
+2. How to Broiler Farming 
+111. Go Back
+000. EXIT
 
 
 #### Menu Option 1 * 5
 
- LEARN BEE KEEPING
+##### LEARN BEE KEEPING
 
 
 #### Menu Option 111
