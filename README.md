@@ -34,45 +34,45 @@
 ## User Interaction
 =====================
 ### Welcome Screen: print main menu
- Welcome to FarmCulture!
-	LEARN & PRACTICE PROFESSIONAL FARMING
-	1. GET STARTED
-	000. EXIT
+Welcome to FarmCulture!
+#### LEARN & PRACTICE PROFESSIONAL FARMING
+1. GET STARTED
+000. EXIT
 
 ### Menu Option 1
- What would you like to LEARN?
-	1. Horticultural farming
-	2. Dairy Farming
-	3. Beef Farming
-	4. Poultry Farming
-	5. Bee keeping
-	111. Go Back 
-	000. EXIT 
+What would you like to LEARN?
+1. Horticultural farming
+2. Dairy Farming
+3. Beef Farming
+4. Poultry Farming
+5. Bee keeping
+111. Go Back 
+000. EXIT 
 
 #### Menu Option 1 * 1
 
 LEARN HORTICULTURE:
-	1. How to cultivate Beans
-	2. How to cultivate Maize
-	3. How to cultivate Wheat
-	4. How to cultivate Tomatoes
-	5. How to cultivate Kales/Sukuma Wiki
-	6. How to cultivate Green Grams
-	7. How to cultivate Cabbage
-	8. How to cultivate Spinach
-	9. How to cultivate Macademia nuts
-	10. How to cultivate Groundnuts
-	111. Go Back
-	000. EXIT
+1. How to cultivate Beans
+2. How to cultivate Maize
+3. How to cultivate Wheat
+4. How to cultivate Tomatoes
+5. How to cultivate Kales/Sukuma Wiki
+6. How to cultivate Green Grams
+7. How to cultivate Cabbage
+8. How to cultivate Spinach
+9. How to cultivate Macademia nuts
+10. How to cultivate Groundnuts
+111. Go Back
+000. EXIT
 
 
 #### Menu Option 1 * 2
 
- LEARN DAIRY FARMING:
-	1. How to Dairy Cow Farming
-	2. How to Dairy Goat Farming
-	111. Go Back
-	000. EXIT
+LEARN DAIRY FARMING:
+1. How to Dairy Cow Farming
+2. How to Dairy Goat Farming
+111. Go Back
+000. EXIT
 
 
 #### Menu Option 1 * 3
@@ -83,10 +83,10 @@ LEARN HORTICULTURE:
 #### Menu Option 1 * 4
 
  LEARN POULTRY FARMING:
-		1. How to Layers Farming 
-		2. How to Broiler Farming 
-		111. Go Back
-		000. EXIT
+	1. How to Layers Farming 
+	2. How to Broiler Farming 
+	111. Go Back
+	000. EXIT
 
 
 #### Menu Option 1 * 5
