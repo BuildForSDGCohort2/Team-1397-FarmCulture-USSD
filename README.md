@@ -34,23 +34,23 @@
 ## User Interaction
 =====================
 ### Welcome Screen: print main menu
-` Welcome to FarmCulture!
+ Welcome to FarmCulture!
 	LEARN & PRACTICE PROFESSIONAL FARMING
 	1. GET STARTED
-	000. EXIT `
+	000. EXIT
 
 ### Menu Option 1
-` What would you like to LEARN?
+ What would you like to LEARN?
 	1. Horticultural farming
 	2. Dairy Farming
 	3. Beef Farming
 	4. Poultry Farming
 	5. Bee keeping
 	111. Go Back 
-	000. EXIT `
+	000. EXIT 
 
 #### Menu Option 1 * 1
-`
+
 LEARN HORTICULTURE:
 	1. How to cultivate Beans
 	2. How to cultivate Maize
@@ -64,39 +64,39 @@ LEARN HORTICULTURE:
 	10. How to cultivate Groundnuts
 	111. Go Back
 	000. EXIT
-`
+
 
 #### Menu Option 1 * 2
-`
+
  LEARN DAIRY FARMING:
 	1. How to Dairy Cow Farming
 	2. How to Dairy Goat Farming
 	111. Go Back
 	000. EXIT
-`
+
 
 #### Menu Option 1 * 3
-`
+
  LEARN BEEF FARMING:
-`
+
 
 #### Menu Option 1 * 4
-`
+
  LEARN POULTRY FARMING:
 		1. How to Layers Farming 
 		2. How to Broiler Farming 
 		111. Go Back
 		000. EXIT
-`
+
 
 #### Menu Option 1 * 5
-`
+
  LEARN BEE KEEPING
-`
+
 
 #### Menu Option 111
 - Takes user to start menu
 
 
 ### Menu Option 000
-` Thank you and Goodbye. See you soon.`	
+ Thank you and Goodbye. See you soon.	
