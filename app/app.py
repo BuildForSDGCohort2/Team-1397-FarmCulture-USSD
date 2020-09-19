@@ -48,7 +48,7 @@ def ussd_callback():
 	elif text == "1*1": 
 		#print menu for horticulture option
 		response = "CON LEARN HORTICULTURE:\n"
-		response += "1. How to cultivate Purple Tea\n"
+		response += "1. How to cultivate Groundnuts\n"
 		response += "2. How to cultivate Maize\n"
 		response += "3. How to cultivate Wheat\n"
 		response += "4. How to cultivate Tomatoes\n"
@@ -57,7 +57,7 @@ def ussd_callback():
 		response += "7. How to cultivate Cabbage\n"
 		response += "8. How to cultivate Spinach\n"
 		response += "9. How to cultivate Macademia nuts\n"
-		response += "10. How to cultivate Groundnuts\n"
+		response += "10. How to cultivate Purple Tea\n"
 		response += "111. Go Back\n"
 		response += "000. EXIT\n"
 
@@ -72,7 +72,7 @@ def ussd_callback():
 	elif text == "1*3":
 		#print menu option for beef farming 
 		response = "CON LEARN BEEF FARMING:\n"
-		response += " .... ... .. . \n"
+		response += " .... HOW-TO ... .. . \n"
 		response += "000. EXIT\n"
 
 	elif text == "1*4":
@@ -91,11 +91,67 @@ def ussd_callback():
 
 	elif text == "1*1*1":
 		#send an SMS to user and print success message
-		pass 
+		response = "CON GROUNDNUT FARMING:\n"
+		response += "00. Send me HOW-TO in SMS form.\n"
+		response += "===CLIMATE CONDITIONS===:\n"
+		response += "Altitude: Below 1500m above sea level.\n"
+		response += "Temperature: 28 - 30 decrees celcius.\n"
+		response += "Rainfall: 500 - 600mm well-distributed.\n"
+		response += "Soil: Well-drained soil.\n"
+		response += "Soil pH: Acidic soil of 6.0pH - 6.5pH\n"
+		response += "===SOME OF THE VARIETIES===.\n"
+		response += "Red Oriata, Manipinta,Makulu Red, Bukene, \n"
+		response += "Homa Bay, Texas Peanut, Red Valencia, Atika.\n"
+		response += "===HOT TO PLANT===.\n"
+		response += "Spacing between rows:\n"
+		response += " 30cm - 45cm depending on variety.\n"
+		response += "Spacing between plants:\n"
+		response += " 15cm - 20cm depending on variety.\n"
+		response += "Sowing depth: 5cm - 6cm deep.\n"
+		response += "About 16kgs of seeds per acre.\n"
+		response += "===WEEDING===.\n"
+		response += "Start weeding 2-3weeks after germination.\n"
+		response += "Weed often during the early stages of growth.\n"
+		response += "Earthle up during weeding to ecourage pegging or \n"
+		response += " penetration of nuts into to the soil.\n"
+		response += "Use hand weeding after the start of pegging \n"
+		response += " to avoid disturbing the growing nuts or damaging the flowers.\n"
+		response += "Do clean weeding up to 6 weeks, \n"
+		response += " then perform only hand weeding.\n"
+		response += "===FERTILIZER===\n"
+		response += "Use adequate Calcuim when pods are forming.\n"
+		response += "Use phosphate at the rate of 40kgs per acre \n"
+		response += " to boost the firmness of the crop.\n"
+		response += "==DESEASE AND PEST CONTROL==.\n"
+		response += "Some of the deseases: \n"
+		response += " Rust, Bacteria Wilt, Groundnut Rosette virus,\n "
+		response += " leaf spot, crown rot and damping off disease.\n"
+		response += "Some of the pests: \n"
+		response += " Termites, aphids, white grabs and millipedes \n"
+		response += " attack roots, stem base, leaves and pods.\n"
+		response += "CONTOL: \n"
+		response += "Early planting, observe farm hygiene,\n"
+		response += " conserving natural enemies,\n"
+		response += " timely harvesting, use well decomposed manure.\n"
+		response += "Practice crop rotation, use certified seeds.\n"
+		response += "---HARVESTING--\n"
+		response += "Harvest at 90days - 130days.\n"
+		response += "Observe keeness at harvest to avoid breaking off."
+		response += "Dried well after shelling \nto avoid aflatoxin, pests and rot.\n"
+		response += "MARKET YOUR PRODUCE!\n"
 
 	elif text == "1*1*2":
 		#send an SMS to user and print success message
 		pass
+
+	elif text == "1*1*1*00":
+		try:
+			#Send an sms to user
+			sms_response = sms.send("Sending you in SMS...", sms_phone_number)
+			print(sms_response)
+		except Exception as e:
+    		#show an error message
+			print(f"Sorry, error occured: {e}")
 
 	else:
 		response = "END Invalid input. Try again."
