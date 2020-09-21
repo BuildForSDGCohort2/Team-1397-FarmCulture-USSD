@@ -1,9 +1,8 @@
 # Team-1397-FarmCulture-USSD
-==========================
-
+-----------------------------------------
 
 ## Introduction
-==========================
+---------------------------
 - Small scale farmers lack sufficient expert knowledge.
 - These farmers want to generate income and make profit from their farms.
 - To achieve their mission, the farmers need to have the knowledge and skill on the type of farming they wish to venture into. 
@@ -12,7 +11,7 @@
 
 
 ## Farming Types
-=================
+-----------------------
 ### Horticulture
 - Fruit farming
 - Vegetable farming
@@ -31,8 +30,8 @@
 ### Bee Keeping
 
 
-## User Interaction
-=====================
+## User Interaction Menu
+-------------------------------
 ### Welcome Screen: print main menu
 Welcome to FarmCulture!
 #### LEARN & PRACTICE PROFESSIONAL FARMING
