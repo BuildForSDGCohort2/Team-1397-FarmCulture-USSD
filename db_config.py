@@ -24,3 +24,10 @@ CREATE TABLE howto(
 	procedure VARCHAR(500)
 	);
 
+#joining table
+CREATE TABLE howto_product(
+	id SERIAL PRIMARY KEY,
+	product_id INT CONSTRAINT howto_product_fk FOREIGN KEY REFERENCES product(id),
+	howto_id INT CONSTRAINT product_howto_fk FOREIGN KEY REFERENCES howto(id)
+	);
+
