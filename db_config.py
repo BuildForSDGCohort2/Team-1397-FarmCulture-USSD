@@ -20,6 +20,7 @@ CREATE TABLE product(
 CREATE TABLE howto(
 	id SERIAL CONSTRAINT howto_pk PRIMARY KEY,
 	product_id INT CONSTRAINT howto_fk FOREIGN KEY REFERENCES product(id),
-	step_id INT CONSTRAINT step_fk FOREIGN KEY REFERENCES step(id),
-	description VARCHAR NOT NULL
+	title VARCHAR(100),
+	procedure VARCHAR(500)
 	);
+
